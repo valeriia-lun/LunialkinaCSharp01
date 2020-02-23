@@ -1,0 +1,27 @@
+﻿@model _01_Luniakina.Models.Person
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>
+            Hello! Enter your name and date of birth!
+        </p>
+
+        @using (Html.BeginForm())
+        {
+            <p>Your name: @Html.TextBoxFor(x => x.Name) </p>
+            <p>Your date of birth:  @Html.EditorFor(x => x.BirthDate)</p>
+            <input type="submit" value="Done" />
+        }
+
+    </div>
+</body>
+</html>

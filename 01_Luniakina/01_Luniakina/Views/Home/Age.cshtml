@@ -1,0 +1,51 @@
+﻿@using _01_Luniakina.Controllers;
+@using System.Web;
+@model _01_Luniakina.Models.Person
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Age</title>
+</head>
+<body>
+    <div>
+        <h1>Hello, @Model.Name!</h1>
+        <p>
+            @{
+                int age = HomeController.CalculateAge(Model.BirthDate);
+                if (age > 0 && age <= 135)
+                {
+                    String ageS = HomeController.CalculateAge(Model.BirthDate).ToString();
+                    <label>Your age: @ageS</label><br />
+
+                    if (HomeController.isBirthday(Model.BirthDate))
+                    {
+                        <label>Happy Birthday!!! You are awesome!</label>
+                    }
+                }
+                else
+                {
+        <script type="text/javascript">
+            window.onload = function () {
+                alert("Wrong date");
+            };
+        </script>
+                }
+
+                <label>Your zodiac sign: @HomeController.astrologicalSign(Model.BirthDate)</label><br/>
+
+                <label>Your Chineese zodiac sign: @HomeController.ChineeseZodiacSign(Model.BirthDate)</label>
+
+            }
+
+        </p>
+
+
+        </div>
+    </body>
+</html>

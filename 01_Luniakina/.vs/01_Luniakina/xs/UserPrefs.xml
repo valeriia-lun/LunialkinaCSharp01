@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{F09563B1-7434-49A2-AAB1-C923843BE2E4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="01_Luniakina/Controllers/HomeController.cs">
+    <Files>
+      <File FileName="01_Luniakina/Controllers/HomeController.cs" Line="138" Column="34" />
+      <File FileName="01_Luniakina/Models/Person.cs" />
+      <File FileName="01_Luniakina/Views/Home/Index.cshtml" />
+      <File FileName="01_Luniakina/Views/Home/Age.cshtml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="01_Luniakina" expanded="True">
+            <Node name="01_Luniakina" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.01__Luniakina PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
